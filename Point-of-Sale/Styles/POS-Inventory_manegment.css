@@ -1,0 +1,114 @@
+
+
+/* Background Styling */
+body {
+    background-image: url('../pictures/Inventory_manegment.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.loginHeader {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    .loginHeader h1 {
+        font-size: 48px;
+        margin: 0;
+    }
+
+/* Inventory Links Styling */
+.inventoryLinks {
+    margin: 50px auto;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+    .inventoryLinks ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .inventoryLinks li {
+        margin: 10px 0;
+    }
+
+    .inventoryLinks a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #450f60;
+        display: block;
+        padding: 10px 15px;
+        border: 1px solid #450f60;
+        border-radius: 5px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+        .inventoryLinks a:hover {
+            background-color: #450f60;
+            color: white;
+        }
+
+/* Existing Styles */
+.container {
+    width: 34%;
+    margin-top: 50px;
+    margin-left: 413px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #450f60;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+    .user-info label {
+        font-weight: bold;
+        color: #450f60;
+        margin-right: 10px;
+    }
+
+    .user-info .user-data {
+        font-size: 16px;
+        color: #333;
+    }
+
+.logout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+    .logout-btn:hover {
+        background-color: #d32f2f;
+    }
